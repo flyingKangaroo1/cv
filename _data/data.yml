@@ -25,19 +25,19 @@ education:
     time: 2010-2014
     university: Ionian University
 
-skills:
-  - category: Backend
-    skill:
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes
+# skills:
+#   - category: Backend
+#     skill:
+#       - Go
+#       - Rust
+#   - category: Frontend
+#     skill:
+#       - React
+#       - Typescript
+#   - category: DevOps
+#     skill:
+#       - Docker
+#       - Kubernetes
 
 # Profile
 profile: |
@@ -76,7 +76,6 @@ volunteering:
     company: "SWE3028: Capstone Project"
     details: |
       Created SKKU campus map using RoadRunner and integrated it into CARLA simulator. 
-      Collected driving data and built a dataset to train an end-to-end autonomous driving model.
     technologies_used: |
       RoadRunner, CARLA
 
@@ -95,7 +94,7 @@ volunteering:
     company: Kookmin University Autonomous Driving Competition
     details: |
       Implemented sliding-window based lane detection using OpenCV. 
-      Calibrated camera modules and visualized lane info with rviz.
+      Calibrated camera and visualized lane info with rviz.
     link: https://github.com/jungjh404/Hell-Coding
     technologies_used: |
       ROS, OpenCV
