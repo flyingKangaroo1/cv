@@ -6,9 +6,11 @@
         {% for pub in publications%}
             <div class="publication-item">
                 <div class="publication-title">
-                         <a {{pub.title}}</a>
-<!--                     <a href="{{pub.link}}">{{pub.title}}</a> -->
+                    {{ pub.title }}
                 </div>
+<!--                 <div class="publication-title">
+                    <a href="{{pub.link}}">{{pub.title}}</a>
+                </div> -->
                 <div class="authors">
                     {{pub.authors}}
                     <span class="conference">{{pub.conference}}</span>   
