@@ -14,7 +14,7 @@
             }
             .authors {
                 @include body-text; 
-                font-weight: bold;
+                // font-weight: bold;
                 .conference {
                     float: right;
                     color: var(--fg-color-title-sm);
