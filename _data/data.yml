@@ -88,7 +88,7 @@ volunteering:
       Used TCP communication for real-time transmission of lane and control data.
     link: https://github.com/flyingKangaroo1/LowlightLKAS
     technologies_used: |
-      PyTorch, keras
+      ROS, PyTorch
 
   - time: May 2022 – Sep 2022
     role: Lane Detection 
@@ -98,7 +98,7 @@ volunteering:
       Calibrated camera modules and visualized lane info with rviz.
     link: https://github.com/jungjh404/Hell-Coding
     technologies_used: |
-      pytorch, keras
+      ROS, OpenCV
 
 # Awards
 publications:
