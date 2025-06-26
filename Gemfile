@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll", "3.5.2"
+# Add platform specification
+platform :arm do
+  gem "ffi", "~> 1.17"  # ARM-compatible version
+end
 
-gem "jekyll-minifier", "0.1.10"
+gem "jekyll", "3.5.2"
