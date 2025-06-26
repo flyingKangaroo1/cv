@@ -12,9 +12,8 @@ contact:
   twitter:
 
 # languages:
+#   - idiom: Korean
 #   - idiom: English
-#   - idiom: Russian
-#   - idiom: French
 
 education:
   - degree: B.S. in Mechanical Engineering and Computer Engineering
@@ -57,7 +56,7 @@ experience:
     time: Dec 2024 - Jan 2025
     company: Solid-VUE, CES Las Vegas
     details: |
-      Promoted startup's solid state LiDAR sensor solution.
+      Promoted Solid-VUE's solid state LiDAR sensor solution.
 
   - role: Army English Intepreter
     time: Dec 2022 – Jun 2024
