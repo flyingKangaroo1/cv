@@ -47,19 +47,19 @@ profile: |
 experience:
   - role: Undergraduate Research Intern
     time: Jun 2025 - Present
-    company: "Robotics Innovatory @ SKKU (Advisor: Hyouk Ryeol Choi)"
+    company: "Robotics Innovatory, SKKU (Advisor: Hyouk Ryeol Choi)"
     details: |
       Adaptive Measurement Model-Based Fusion of Capacitive Proximity Sensor and LiDAR
 
   - role: Project Manager, Autonomous Driving Team
     time: Dec 2024 - Present
-    company: HEVEN(Hybrid Electric Vehicle Engineers) Club @ SKKU
+    company: HEVEN(Hybrid Electric Vehicle Engineers) Club, SKKU
     details: |
       Managed the autonomous driving team, led hardware-software integration, and participated in national-level competitions.
 
   - role: Solid-VUE LiDAR CES 2025 Exhibitor
     time: Dec 2024 - Jan 2025
-    company: Solid-VUE @ CES Las Vegas
+    company: Solid-VUE, CES Las Vegas
     details: |
       Promoted startup's LiDAR sensor solution in English to global buyers and technical stakeholders.
 
