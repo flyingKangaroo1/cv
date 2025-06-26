@@ -72,6 +72,7 @@ volunteering:
     company: "SWE3028: Capstone Project"
     details: |
       Created SKKU campus map using RoadRunner and integrated it into CARLA simulator. 
+    link: https://youtu.be/i7z6_LPR2l8
     technologies_used: |
       RoadRunner, CARLA
 
