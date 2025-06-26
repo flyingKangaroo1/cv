@@ -71,13 +71,21 @@ experience:
 
 # Projects
 volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
+  - time: Mar 2025 – Jun 2025
+    role: End-to-End Autonomous Campus Shuttle
+    company: "SWE3028: Capstone Project"
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Created SKKU campus map using RoadRunner and integrated it into CARLA simulator. 
+      Collected driving data and built a dataset to train an end-to-end autonomous driving model.
+    technologies_used: |
+      RoadRunner, CARLA
+
+  - time: Mar 2025 – Jun 2025
+    role: Low-Light Lane Keeping Assistance System
+    company: "ERC3002: Undergraduate Research Project"
+    details: |
+      Applied Zero-DCE low-light enhancement model to ROS and deployed it on Ranger Robot. 
+      Used TCP communication for real-time transmission of lane and control data.
     technologies_used: |
       pytorch, keras
 
