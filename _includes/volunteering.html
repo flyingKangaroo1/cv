@@ -8,9 +8,13 @@
       {{vol.company}}
       <span class="time">{{vol.time}}</span>
     </div>
-    <div class="details">{{vol.details}}</div>
+    <div class="details">
+      {{ vol.details }}
+      {% if vol.link %}
+        <a class="project-link" href="{{ vol.link }}" target="_blank"> (link)</a>
+      {% endif %}
+    </div>
     <p class="technologies">Technologies Used: {{vol.technologies_used}}</p>
-    <a class="project-link" href="{{vol.link}}"> (link)</a>
   </div>
 
   {% endfor %}
