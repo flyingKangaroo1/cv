@@ -1,20 +1,20 @@
-name: John Doe
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
+  email: raph03@g.skku.edu
+  github: 
+  linkedin: raphaelhwang
+  phone: 8210-6567-1016
   gitlab: 
   twitter: 
 
-languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
+
+# languages:
+#   - idiom: English
+#   - idiom: Russian
+#   - idiom: French
 
 education:
   - degree: MSc in Informatics
@@ -49,29 +49,29 @@ profile: |
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Undergraduate Research Intern
+    time: Jun 2025 - Present
+    company: Robotics Innovatory @ SKKU (Advisor: Hyouk Ryeol Choi)
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
+      Adaptive Measurement Model-Based Fusion of Capacitive Proximity Sensor and LiDAR
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: Project Manager, Autonomous Driving Team
+    time: Dec 2024 - Present
+    company: HEVEN(Hybrid Electric Vehicle Engineers) Club @ SKKU
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Managed the autonomous driving team, led hardware-software integration, and participated in national-level competitions.
+ 
+  - role: Solid-VUE LiDAR CES 2025 Exhibitor
+    time: Dec 2024 - Jan 2025
+    company: Solid-VUE @ CES Las Vegas
+    details: |
+      Promoted startup's LiDAR sensor solution in English to global buyers and technical stakeholders.
+
+  - role: Army English Intepreter
+    time: Dec 2022 – Jun 2024
+    company: Army Headquarters, Korea
+    details: |
+      Translated military technical documents and reports for R&D at the Army Military Research Institute.    
 
 publications:
   - title: Random title of paper. An interesting one.
