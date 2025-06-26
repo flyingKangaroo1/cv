@@ -1,32 +1,37 @@
 name: Build and Deploy Jekyll Site
-
 on:
   push:
-    branches: [main]
-
+    branches: gh-pages
+permissions:
+  contents: write
 jobs:
-  jekyll:
+  build-deploy:
     runs-on: ubuntu-latest
-
+    container:
+      image: ruby:2.7-slim-bullseye  # Matches your Ruby version
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.1"
-
-      - name: Install dependencies
+        
+      - name: Install ARM64 Dependencies
         run: |
-          gem install bundler
-          bundle install
-
-      - name: Build site
+          apt-get update
+          apt-get install -y gcc make g++ build-essential
+            
+      - name: Set up Ruby Environment
+        run: |
+          gem install bundler -v 2.4.22  # Matches your BUNDLED WITH version
+          bundle config set --local path 'vendor/bundle'
+          
+      - name: Install Gems
+        run: bundle install
+        
+      - name: Build Site
         run: bundle exec jekyll build
-
+        
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_sitesss
+          publish_dir: ./_site
+          keep_files: true  # Preserve deployment history
