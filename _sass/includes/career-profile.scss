@@ -1,8 +1,36 @@
 .career-profile {
+    margin-bottom: 40px;
+
     .title {
         @include header;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
+
     .details {
         @include body-text;
+        margin-bottom: 30px;
+    }
+
+    .education-wrapper {
+        width: 100%;
+        margin-top: 20px;
+
+        .education-item {
+            margin-bottom: 20px;
+
+            .degree {
+                @include body-text;
+                font-weight: bold;
+            }
+
+            .university {
+                @include body-text;
+            }
+
+            .time {
+                @include body-text;
+            }
+        }
     }
 }
