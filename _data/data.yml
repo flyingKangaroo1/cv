@@ -19,7 +19,7 @@ contact:
 education:
   - degree: B.S. in Mechanical Engineering and Computer Engineering
     time: 2021 – 2027 (expected)
-    university: "Sungkyunkwan University (SKKU), GPA: 4.46 / 4.5"
+    university: "Sungkyunkwan University (SKKU), 4.46 / 4.5 GPA"
 
 # skills:
 #   - category: Backend
@@ -51,13 +51,13 @@ experience:
     time: Dec 2024 - Present
     company: HEVEN(Hybrid Electric Vehicle Engineers) Club, SKKU
     details: |
-      Managed the autonomous driving team, led hardware-software integration, and participated in national-level competitions.
+      Managed the autonomous driving team, led localization team, and participated in national-level competitions.
 
   - role: Solid-VUE LiDAR CES 2025 Exhibitor
     time: Dec 2024 - Jan 2025
     company: Solid-VUE, CES Las Vegas
     details: |
-      Promoted startup's LiDAR sensor solution in English to global buyers and technical stakeholders.
+      Promoted startup's solid state LiDAR sensor solution.
 
   - role: Army English Intepreter
     time: Dec 2022 – Jun 2024
