@@ -88,19 +88,35 @@ volunteering:
       Used TCP communication for real-time transmission of lane and control data.
     link: https://github.com/flyingKangaroo1/LowlightLKAS
     technologies_used: |
+      PyTorch, keras
+
+  - time: May 2022 – Sep 2022
+    role: Lane Detection 
+    company: Kookmin University Autonomous Driving Competition
+    details: |
+      Implemented sliding-window based lane detection using OpenCV. 
+      Calibrated camera modules and visualized lane info with rviz.
+    link: https://github.com/jungjh404/Hell-Coding
+    technologies_used: |
       pytorch, keras
 
 # Awards
 publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  - title: 3rd Place, 2025 Autonomous Driving Robot Race
+    link: 
+    authors: Autonomous Driving Robot Race Committee
+    conference: May 2025
+    
+  - title: 3rd Place, 7th SKKU Autonomous Driving Hackathon
+    link: 
+    authors: SKKU LINC 3.0
+    conference: Nov 2024
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+  - title: 1st Place, 2024 Autonomous Driving Robot Race
+    link: 
+    authors: Autonomous Driving Robot Race Committee
+    conference: Sep 2024
+
 # projects:
 #   - title: Cool Project
 #     link:
