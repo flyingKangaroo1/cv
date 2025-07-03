@@ -36,15 +36,10 @@ education:
 
 # Profile
 profile: |
-  Research Interests: Autonomous Driving, Computer Vision, Sensor Fusion
+  Research Interests: Autonomous Driving, Computer Vision, SLAM
 
 # Experience
 experience:
-  - role: Undergraduate Research Intern
-    time: Jul 2025 - Present
-    company: "Robotics Innovatory, SKKU (Advisor: Hyouk Ryeol Choi)"
-    details: |
-      Adaptive Measurement Model-Based Fusion of Capacitive Proximity Sensor and LiDAR
 
   - role: Project Manager, Autonomous Driving Team
     time: Dec 2024 - Present
@@ -70,7 +65,7 @@ volunteering:
     role: End-to-End Autonomous Campus Shuttle
     company: "SWE3028: Capstone Project"
     details: |
-      Created SKKU campus map using RoadRunner and integrated it into CARLA simulator. 
+      Created SKKU campus map using RoadRunner and integrated it into CARLA simulator.
     link: https://youtu.be/i7z6_LPR2l8
     technologies_used: |
       RoadRunner, CARLA
