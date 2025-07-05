@@ -40,6 +40,10 @@ profile: |
 
 # Experience
 experience:
+<<<<<<< HEAD
+=======
+
+>>>>>>> 20852e3447c140b2ec5799ee92ef74fd4546725a
   - role: Project Manager, Autonomous Driving Team
     time: Dec 2024 - Present
     company: HEVEN(Hybrid Electric Vehicle Engineers) Club, SKKU
