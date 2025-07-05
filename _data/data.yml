@@ -36,16 +36,10 @@ education:
 
 # Profile
 profile: |
-  Research Interests: Autonomous Driving, Computer Vision, Sensor Fusion
+  Research Interests: Autonomous Driving, Computer Vision, SLAM
 
 # Experience
 experience:
-  - role: Undergraduate Research Intern
-    time: Jul 2025 - Present
-    company: "Robotics Innovatory, SKKU (Advisor: Hyouk Ryeol Choi)"
-    details: |
-      Adaptive Measurement Model-Based Fusion of Capacitive Proximity Sensor and LiDAR
-
   - role: Project Manager, Autonomous Driving Team
     time: Dec 2024 - Present
     company: HEVEN(Hybrid Electric Vehicle Engineers) Club, SKKU
@@ -70,12 +64,12 @@ volunteering:
     role: End-to-End Autonomous Campus Shuttle
     company: "SWE3028: Capstone Project"
     details: |
-      Created SKKU campus map using RoadRunner and integrated it into CARLA simulator. 
+      Created SKKU campus map using RoadRunner and integrated it into CARLA simulator.
     link: https://youtu.be/i7z6_LPR2l8
     technologies_used: |
       RoadRunner, CARLA
 
-  - time: Mar 2025 – Jun 2025
+  - time: Jan 2025 – Feb 2025
     role: Low-Light Lane Keeping Assistance System
     company: "ERC3002: Undergraduate Research Project"
     details: |
@@ -86,7 +80,7 @@ volunteering:
       ROS, PyTorch
 
   - time: May 2022 – Sep 2022
-    role: Lane Detection 
+    role: Lane Detection
     company: Kookmin University Autonomous Driving Competition
     details: |
       Implemented sliding-window based lane detection using OpenCV. 
@@ -97,26 +91,25 @@ volunteering:
 
 # Awards
 publications:
-  - title: National Science & Technology Scholarship 
-    link: 
+  - title: National Science & Technology Scholarship
+    link:
     authors: Korea Ministry of Science and ICT
     conference: Jun 2025
-    
+
   - title: 3rd Place, 2025 Autonomous Driving Robot Race
-    link: 
+    link:
     authors: Autonomous Driving Robot Race Committee
     conference: May 2025
-    
+
   - title: 3rd Place, 7th SKKU Autonomous Driving Hackathon
-    link: 
+    link:
     authors: SKKU LINC 3.0
     conference: Nov 2024
 
   - title: 1st Place, 2024 Autonomous Driving Robot Race
-    link: 
+    link:
     authors: Autonomous Driving Robot Race Committee
     conference: Sep 2024
-
 # projects:
 #   - title: Cool Project
 #     link:
